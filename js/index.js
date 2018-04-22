@@ -16,7 +16,7 @@ var ball = {
 	position: {x: width / 2, y: height / 6}, // initial ball position
 	velocity: {x: 0, y: 0}, // initial ball speed
 	radius: 10, // ball radius
-	bounce: -0.65 // ball bouncing force 0: without bouncing, 1: infinite bouncing
+	bounce: -0.7 // ball bouncing force 0: without bouncing, 1: infinite bouncing
 };
 
 function create_canvas() {
